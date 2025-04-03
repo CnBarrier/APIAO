@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Nahida_Dress1_Front_MMD
   m_Shader: {fileID: 4800000, guid: d87b4295c6c53cc489e827c660822da3, type: 3}
-  m_Parent: {fileID: 2100000, guid: 65f35073d8747e24c8dae962bcd8f4eb, type: 2}
+  m_Parent: {fileID: 2100000, guid: 322db5a5146cec3448740f94d50fa061, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _EMISSION
