@@ -42,9 +42,9 @@ public class PlayerBehaviour : MonoBehaviour
             CurrentLand = Mathf.Clamp(CurrentLand + 1, -1, 1);
         }
         
-        Vector3 Target = new Vector3(CurrentLand * LandSpace, transform.position.y, transform.position.z);
+        Vector3 Target = new(CurrentLand * LandSpace, transform.position.y, transform.position.z);
         Vector3 Direction = Target - transform.position;
-        controller.Move((Direction + transform.forward) * Speed * Time.deltaTime); 
+        controller.Move(Speed * Time.deltaTime * (Direction + transform.forward)); 
         controller.Move(Velocity * Time.deltaTime);
 
         if (!isGrounded)
