@@ -584,6 +584,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: cb9d790e469996742b2835c784a7ddcd, type: 2}
     - target: {fileID: -3182633231267039026, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: 'm_Materials.Array.data[16]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5132f042af18bd54da72ac4544a275bb, type: 2}
+    - target: {fileID: -3182633231267039026, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
       propertyPath: 'm_Materials.Array.data[17]'
       value: 
       objectReference: {fileID: 2100000, guid: 5132f042af18bd54da72ac4544a275bb, type: 2}
@@ -603,6 +607,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[22]'
       value: 
       objectReference: {fileID: 2100000, guid: cb9d790e469996742b2835c784a7ddcd, type: 2}
+    - target: {fileID: -944466244001260074, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.012043769
+      objectReference: {fileID: 0}
+    - target: {fileID: -944466244001260074, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.001232594
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
       propertyPath: m_Name
       value: Nahida
@@ -611,7 +623,24 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5866666021909216657, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+    - target: {fileID: 5866666021909216657, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e9698fdffe81a684e94ae3336a2bf18b, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3e59a1cf5a2bcab43846e245f0289b71, type: 3}
@@ -646,7 +675,7 @@ MonoBehaviour:
   Velocity: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0, z: 0}
   Speed: 5
-  isGrounded: 0
+  isGrounded: 1
   CurrentLand: 0
   LandSpace: 2
 --- !u!143 &2102191758
