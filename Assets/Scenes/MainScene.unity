@@ -675,9 +675,12 @@ MonoBehaviour:
   Velocity: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0, z: 0}
   Speed: 5
+  Health: 3
   isGrounded: 1
+  isAlive: 1
   CurrentLand: 0
   LandSpace: 2
+  timer: 60
 --- !u!143 &2102191758
 CharacterController:
   m_ObjectHideFlags: 0
